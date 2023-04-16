@@ -410,3 +410,85 @@
     font-weight: bold;
     text-transform: uppercase;
 }
+
+#footer {
+    position: relative;
+    margin-top: 100px;
+    height: 582px;
+}
+
+#footer .footer-logo {
+    position: absolute;
+    top: 65px;
+    left: 100px;
+}
+
+#footer .footer-background img {
+    width: 100%;
+}
+
+#footer .body-text p {
+    position: absolute;
+    left: 100px;
+    top: 210px;
+    font-family: 'Montserrat';
+    font-size: 16.67px;
+    font-weight: 300;
+    color: #fff;
+}
+
+#footer .address {
+    position: absolute;
+    top: 230px;
+    right: 170px;
+    display: flex;
+    align-items: center;
+}
+
+#footer .address p {
+    font-family: 'Montserrat';
+    font-size: 16.67px;
+    font-weight: 300;
+    color: #fff;
+    margin-left: 30px;
+}
+
+#footer .contact-mail {
+    position: absolute;
+    top: 280px;
+    right: 250px;
+    display: flex;
+    align-items: center;
+}
+
+#footer .contact-mail p {
+    font-family: 'Montserrat';
+    font-size: 16.67px;
+    font-weight: 300;
+    color: #fff;
+    margin-left: 30px;
+}
+
+#footer .copy-right p {
+    position: absolute;
+    bottom: 95px;
+    left: 100px;
+    font-family: 'Montserrat';
+    font-size: 16.67px;
+    font-weight: 300;
+    color: #fff;
+}
+
+#footer .social {
+    display: flex;
+    position: absolute;
+    right: 88px;
+    bottom: 88px;
+    margin-right: -10px;
+}
+
+#footer .social img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
