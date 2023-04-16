@@ -301,7 +301,48 @@
     height: 17px;
     border: none;
     border-radius: 50%;
-    background-color: #E8E6A9;
+    background-color: #DCDCDC;
     cursor: pointer;
     margin-left: 10px;
+}
+
+#event .try-food {
+    margin-top: 115px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+#event .try-food {
+    display: flex;
+    justify-content: space-between;
+}
+
+#event .food-item {
+    position: relative;
+}
+
+#event .food-item.item2 {
+    margin-bottom: 33px;
+}
+
+#event .food-item .text-food-item {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+
+#event .text-food-item h3 {
+    font-family: 'Montserrat';
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#event .text-food-item p {
+    font-family: 'Montserrat';
+    font-size: 41.67px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
 }
