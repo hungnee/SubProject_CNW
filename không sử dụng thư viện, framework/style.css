@@ -294,6 +294,7 @@
 
 #event .btn-event {
     text-align: center;
+    margin-top: 45px;
 }
 
 #event .btn-event button {
@@ -344,5 +345,68 @@
     font-size: 41.67px;
     font-weight: bold;
     color: #fff;
+    text-transform: uppercase;
+}
+
+#table-booking {
+    margin-top: 90px;
+}
+
+#table-booking .table-booking-text {
+    text-align: center;
+}
+
+#table-booking .table-booking-text p {
+    font-family: 'Montserrat';
+    font-size: 20.83px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#table-booking .table-booking-text h1 {
+    margin-top: 25px;
+    font-family: 'Fredericka the Great';
+    font-size: 50px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+#table-booking .booking {
+    text-align: center;
+}
+
+#table-booking .booking input {
+    width: 379px;
+    height: 65px;
+    margin-top: 30px;
+    margin-right: 25px;
+    padding-left: 25px;
+    border-radius: 5px;
+    border: 1px solid #BEBEBE;
+    font-size: 16.67px;
+    opacity: 0.8;
+}
+
+#table-booking .booking input:focus {
+    outline: none;
+}
+
+#table-booking .booking input::placeholder {
+    font-family: 'Montserrat';
+    font-size: 16.67px;
+    font-weight: 300;
+}
+
+#table-booking .booking button {
+    width: 379px;
+    height: 65px;
+    margin-right: 25px;
+    background-color: #FFE001;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-size: 20.83px;
+    font-weight: bold;
     text-transform: uppercase;
 }
