@@ -255,6 +255,53 @@
     cursor: pointer;
 }
 
-#envent {
+#event {
     margin-top: 150px;
+}
+
+#event .event-text {
+    text-align: center;
+}
+
+#event .event-text h3 {
+    font-family: 'Montserrat';
+    font-size: 20.83px;
+    text-transform: uppercase;
+}
+
+#event .event-text h1 {
+    font-family: 'Fredericka the Great';
+    font-size: 41.67px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+#event .event-text p {
+    font-family: 'Montserrat';
+    font-size: 16.67px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+#event .food-img {
+    margin-top: 45px;
+}
+
+#event .food-img img {
+    width: 450px;
+}
+
+#event .btn-event {
+    text-align: center;
+}
+
+#event .btn-event button {
+    width: 17px;
+    height: 17px;
+    border: none;
+    border-radius: 50%;
+    background-color: #E8E6A9;
+    cursor: pointer;
+    margin-left: 10px;
 }
