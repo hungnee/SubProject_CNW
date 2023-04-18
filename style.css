@@ -414,7 +414,6 @@
 #footer {
     position: relative;
     margin-top: 100px;
-    height: 582px;
 }
 
 #footer .footer-logo {
@@ -424,6 +423,7 @@
 }
 
 #footer .footer-background img {
+    display: block;
     width: 100%;
 }
 
