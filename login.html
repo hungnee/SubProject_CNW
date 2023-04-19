@@ -5,59 +5,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log in</title>
+    <title>Sign In</title>
     <link rel="stylesheet" href="./login_style.css">
 </head>
 
 <body>
     <div id="warraper-login">
-        <div class="contener-login">
-            <div class="body-login">
-                <div class="text-login">
-                    <h1>Log in</h1>
+        <div class="container-login">
+            <h1>sign in</h1>
+            <div class="input-login">
+                <div class="username">
+                    <p>Username:</p>
+                    <input class="input-user-name" type="text" placeholder="Enter your account name">
                 </div>
-
-                <div class="tendangnhap">
-                    <div class="user-name">User name:</div>
-                    <input class="input-user" type="text" placeholder="    Enter your account name">
-                </div>
-                <div class="matkhau">
-                    <div class="user-name">Password:</div>
-                    <input class="input-user" type="text" placeholder="    Enter password">
+                <div class="password">
+                    <p>Password:</p>
+                    <input class="input-pass-word" type="password" placeholder="Enter your password">
                 </div>
             </div>
-            <div class="quenpass-dangky">
-                <div class="quenpass">
-                    <a href="#"><u>Forgot password ?</u></a>
-                </div>
-                <div class="dangky">
-                    <a href="#"><u>Sign up</u></a>
-                </div>
+            <div class="other">
+                <a href="#">Forgot password ?</a>
+                <a href="#">Sign up</a>
             </div>
-
-            <div class="or"><span>Or</span></div>
-
-            <div class="login-gg-fb">
-                <div class="login-google">
-                    <button class="buttom-login-google">
-                        <div class="item-logo">
-                            <i class="fa fa-google login-social-icon"></i>
-                        </div>
-                        <div class="text-login-google">Log in with Google</div>
-                    </button>
-                </div>
-                <div class="login-facebook">
-                    <button class="buttom-login-facebook">
-                        <div class="item-logo">
-                            <i class="fa fa-facebook login-social-icon"></i>
-                        </div>
-                        <div class="text-login-facebook">Log in with Facebook</div>
-                    </button>
-                </div>
+            <div class="sign-in-btn">
+                <button>login</button>
             </div>
         </div>
     </div>
-    </div>
+
+    <script>
+        const username = document.querySelector('.input-user-name');
+        const password = document.querySelector('.input-pass-word');
+        const loginBtn = document.querySelector('.sign-in-btn button');
+
+        loginBtn.addEventListener('click', () => {
+            if (username.value === 'admin' && password.value === 'admin') {
+                window.location.href = 'admin.html';
+            } else {
+                alert('Invalid username or password!');
+            }
+        });
+    </script>
 </body>
 
 </html>
