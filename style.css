@@ -85,7 +85,7 @@
 
 #header .header-image .image3 {
     position: absolute;
-    left: 805px;
+    left: 750px;
     top: 220px;
 }
 
@@ -106,6 +106,8 @@
     left: o;
     top: 675px;
 }
+
+#header .header-text {}
 
 #header .header-text h2 {
     position: absolute;
@@ -491,4 +493,152 @@
     width: 30px;
     height: 30px;
     margin-right: 10px;
+}
+
+.carousel-item img {
+    height: 500px;
+
+}
+
+@media screen and (max-width: 600px) {
+    .nav {
+        display: flex;
+        width: 100%;
+    }
+
+    .header-contact {
+        background-color: red;
+    }
+
+    #header .nav li {
+        margin: 0;
+        margin: auto;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    #header .header-text h2 {
+        font-size: 40px;
+    }
+
+    #header .header-text h1 {
+        font-size: 50px;
+        padding-top: 40px;
+    }
+
+    #header .header-text .order-now-header {
+        width: 100%;
+        margin-left: 0;
+        left: 0%;
+        font-size: 20px;
+        margin: 0;
+        text-align: center;
+    }
+
+    #header .header-text h3 {
+        left: 50px;
+    }
+
+    #header .header-text .special-text {
+        left: 230px;
+        top: 510px
+    }
+
+    #header .line {
+        left: 0;
+        width: 100%;
+    }
+
+    #header .button button {
+        left: 100px;
+        height: 50px;
+        width: 200px;
+        font-size: 18px;
+    }
+
+    #header .header-image .image3,
+    .image2,
+    .image4 {
+        display: none;
+    }
+
+    #food-order .food-order-text h1 {
+        font-size: 35px;
+    }
+
+    #food-order .food-order-text p {
+        padding: 0 30px;
+    }
+
+    #food-order .food-menu {
+        display: block;
+
+    }
+
+    .food-menu div {
+        margin-bottom: 50px;
+    }
+
+    #event .event-text p {
+        padding: 0 30px;
+    }
+
+    #event .event-text h1 {
+        font-size: 35px;
+    }
+
+    #event .try-food {
+        margin: 0;
+        width: 100%
+    }
+
+    #event .try-food {
+        padding: 0;
+    }
+
+    #event .try-food {
+        display: none;
+    }
+
+    #table-booking .booking input {
+        margin-right: 0;
+    }
+
+    #table-booking .booking button {
+        margin-right: 0;
+        margin-top: 30px;
+    }
+
+    #footer {
+        width: 100%;
+    }
+
+    #footer .social {
+        right: 120px;
+    }
+
+    #footer .copy-right p {
+        left: 15%;
+        padding-bottom: 20px;
+    }
+
+    #footer .footer-logo {
+        left: 15%;
+    }
+
+    #footer .address {
+        display: none;
+    }
+
+    #footer .contact-mail {
+        display: none;
+    }
+
+    #footer .body-text {
+        display: none;
+    }
+
+    #header .header-image {
+        display: none;
+    }
 }
