@@ -506,7 +506,12 @@
         width: 100%;
     }
 
+    .header-cover {
+        display: none;
+    }
+
     .header-contact {
+        display: none;
         background-color: red;
     }
 
@@ -559,6 +564,10 @@
     #header .header-image .image3,
     .image2,
     .image4 {
+        display: none;
+    }
+
+    .food-order-line {
         display: none;
     }
 
